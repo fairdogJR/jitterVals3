@@ -131,9 +131,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(524, 418);
+            this.button4.Location = new System.Drawing.Point(503, 460);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(158, 23);
+            this.button4.Size = new System.Drawing.Size(102, 23);
             this.button4.TabIndex = 8;
             this.button4.Text = "Save list";
             this.button4.UseVisualStyleBackColor = true;
@@ -150,9 +150,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(524, 389);
+            this.button5.Location = new System.Drawing.Point(503, 431);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(158, 23);
+            this.button5.Size = new System.Drawing.Size(102, 23);
             this.button5.TabIndex = 11;
             this.button5.Text = "Load Scope Setup";
             this.button5.UseVisualStyleBackColor = true;
@@ -179,9 +179,9 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(524, 457);
+            this.button7.Location = new System.Drawing.Point(503, 499);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(158, 94);
+            this.button7.Size = new System.Drawing.Size(102, 94);
             this.button7.TabIndex = 15;
             this.button7.Text = "Refresh Thumbnail";
             this.button7.UseVisualStyleBackColor = true;
@@ -319,15 +319,15 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(576, 151);
+            this.dataGridView1.Location = new System.Drawing.Point(975, 15);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(476, 221);
+            this.dataGridView1.Size = new System.Drawing.Size(476, 806);
             this.dataGridView1.TabIndex = 31;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // populateDatagrid
             // 
-            this.populateDatagrid.Location = new System.Drawing.Point(749, 389);
+            this.populateDatagrid.Location = new System.Drawing.Point(671, 129);
             this.populateDatagrid.Name = "populateDatagrid";
             this.populateDatagrid.Size = new System.Drawing.Size(75, 42);
             this.populateDatagrid.TabIndex = 32;
@@ -337,7 +337,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(839, 399);
+            this.button3.Location = new System.Drawing.Point(752, 139);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(158, 23);
             this.button3.TabIndex = 33;
@@ -349,7 +349,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1149, 765);
+            this.ClientSize = new System.Drawing.Size(1476, 833);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.populateDatagrid);
             this.Controls.Add(this.dataGridView1);
